@@ -2,14 +2,25 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 14%
+    left: 10%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 18%
+    right: 20%
+  &-3
+    animation: float1 3s ease-in-out infinite alternate
+    position: absolute
+    bottom: 12%
+    right: 25%
 
+.banner-interno
+  height: 150px
+  .banner-interno__fondo
+    background-color: $color-sistema-g
+    background-position: right
+    background-image: url(../assets/curso/fondo_tema.png) !important
 
 @keyframes float1
   0%
@@ -18,3 +29,28 @@
   100%
     transform: translateY(0px)
 
+a.barra-avance__boton--regresar:hover
+  span
+    color: $white !important
+
+//Banners
+.banner-principal__img
+  padding-top: 2rem !important
+  padding-bottom: 2rem !important
+  img
+    max-width: 464px
+.banner-principal .tarjeta
+  background-position: inherit
+  @media screen and (max-width: $bp-max-md)
+    background-image: url(../assets/curso/portada/fondo-banner-principal-md.png) !important
+  @media screen and (max-width: $bp-max-xs)
+    background-image: url(../assets/curso/portada/fondo-banner-principal-movil.png) !important
+
+
+//colores
+.fondo-color-sistema-i
+  background-color: $color-sistema-i
+
+//bordes
+.borde-25
+  border-radius: 25px

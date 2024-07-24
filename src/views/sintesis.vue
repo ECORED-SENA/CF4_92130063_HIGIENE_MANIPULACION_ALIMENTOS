@@ -6,8 +6,9 @@
 
     .row.justify-content-center
       .col-lg-10.mb-5
-        figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+        .fondo-color-sistema-i.borde-25.p-3.py-4
+          figure
+            img(src="@/assets/curso/temas/sintesis.svg", alt="La síntesis  de Manipulación de Alimentos, que incluye técnicas y procedimientos para conservar la seguridad y calidad. Se abordan responsabilidades y salud del personal manipulador, higiene personal (manos, boca, mucosas, intestino), manejo de refrigerados, registro, almacenamiento y transporte de alimentos con control de temperatura. También se integra el sistema HACCP con análisis de peligros, controles críticos, vigilancia, acciones correctivas y registro.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
