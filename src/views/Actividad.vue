@@ -88,49 +88,224 @@ export default {
         },
         {
           id: 3,
-          texto: 'Texto de la tercera pregunta 3',
+          texto:
+            '¿Qué documento debe tener el personal manipulador de alimentos para certificar su aptitud?',
           imagen: require('@/assets/curso/banner-princiapal.svg'),
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: true },
+            { id: 'a', texto: 'Certificado de nacimiento.', esCorrecta: false },
+            { id: 'b', texto: 'Licencia de conducir.', esCorrecta: false },
+            {
+              id: 'c',
+              texto: 'Certificado médico de aptitud.',
+              esCorrecta: true,
+            },
+            { id: 'd', texto: 'Pasaporte.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Esa es la respuesta correcta.',
-          mensaje_incorrecto: 'Respuesta incorrecta. ¡Inténtalo de nuevo!',
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
         },
         {
           id: 4,
-          texto: 'Texto de la cuarta pregunta 4',
+          texto: '¿Cuál es una fuente común de transmisión de microorganismos?',
           imagen: require('@/assets/curso/banner-princiapal.svg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: true },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
+            { id: 'a', texto: 'Manos.', esCorrecta: true },
+            { id: 'b', texto: 'Cabello.', esCorrecta: false },
+            { id: 'c', texto: 'Ropa.', esCorrecta: false },
+            { id: 'd', texto: 'Aire acondicionado.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
         },
         {
           id: 5,
-          texto: 'Texto de la quinta pregunta 5',
+          texto:
+            '¿Qué medida es crucial durante la recepción de productos refrigerados?',
           imagen: require('@/assets/curso/banner-princiapal.svg'),
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: true },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Almacenarlos en cualquier lugar.',
+              esCorrecta: false,
+            },
+            { id: 'b', texto: 'Mantener la cadena de frío.', esCorrecta: true },
+            {
+              id: 'c',
+              texto: 'Mezclarlos con productos secos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'No verificar la temperatura.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 6,
+          texto: '¿Qué es el sistema HACCP?',
+          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Un método de cocción.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Un sistema de análisis de peligros y puntos de control crítico.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Un tipo de embalaje.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Una técnica de conservación.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 7,
+          texto:
+            '¿Qué práctica es esencial para evitar la contaminación cruzada en el almacenamiento?',
+          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Separar alimentos crudos y cocidos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Mezclar todos los alimentos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Almacenar todos los productos juntos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'No etiquetar los productos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 8,
+          texto:
+            '¿Cuál es una de las responsabilidades del manipulador de alimentos?',
+          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Ignorar las normas de higiene.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Participar en la formación continua en buenas prácticas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Usar cualquier tipo de ropa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Evitar los exámenes médicos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 9,
+          texto:
+            '¿Qué debe hacer un manipulador de alimentos si tiene una infección en la piel?',
+          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Continuar trabajando.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'No manipular alimentos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Usar guantes sin lavar.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Aplicar maquillaje.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 10,
+          texto: '¿Qué se debe verificar durante el transporte de alimentos?',
+          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Cantidad de alimentos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Condiciones de temperatura y limpieza del vehículo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Marca de los alimentos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Peso de los alimentos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
         },
       ],
       mensaje_final_aprobado:
-        '¡Has completado el cuestionario exitosamente! Felicidades.',
+        '¡Excelente! Te felicito, has superado la actividad.',
       mensaje_final_reprobado:
-        'No has alcanzado la puntuación mínima para aprobar. Te animamos a intentarlo de nuevo.',
+        'Te recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
   computed: {},

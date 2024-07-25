@@ -46,11 +46,171 @@ a.barra-avance__boton--regresar:hover
   @media screen and (max-width: $bp-max-xs)
     background-image: url(../assets/curso/portada/fondo-banner-principal-movil.png) !important
 
+//bordes
+.borde-20
+  border-radius: 20px
 
 //colores
 .fondo-color-sistema-i
   background-color: $color-sistema-i
+.fondo-color-sistema-j
+  background-color: $color-sistema-j
+.fondo-color-sistema-k
+  background-color: $color-sistema-k
+.fondo-color-primario
+  background-color: $color-primario
+.fondo-color-secundario
+  background-color: $color-secundario
+
+//fondos
+.fondo-personalizado-1
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 108%
+    left: -4%
+    @media screen and (max-width: $bp-max-xl)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: $bp-max-lg)
+      width: 112%
+      left: -6%
+    @media screen and (max-width: $bp-max-md)
+      width: 116%
+      left: -8%
+    @media screen and (max-width: $bp-max-sm)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: 520px)
+      width: 120%
+      left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-repeat: no-repeat
+    background-position: top
+    background-size: cover
+  &.no-tam-full
+    &:before
+      left: 0 !important
+      width: 100% !important
+  &.pos-bottom
+    &:before
+      background-position: bottom
+  &.pos-full
+    &:before
+      background-size: 100%
+      @media screen and (max-width: $bp-max-md)
+        background-size: cover
+  &.f1
+    &:before
+      background-image: url(../assets/curso/temas/18.png)
+  &.f2
+    &:before
+      background: rgb(253,219,180)
+      background: linear-gradient(180deg, rgba(253,219,180,1) 0%, rgba(199,234,208,1) 100%)
+  &__contenido
+    position: relative
 
 //bordes
 .borde-25
   border-radius: 25px
+
+//tarjetas
+.tarjeta-per-1
+  overflow: hidden
+  background-color: $color-sistema-k
+  border-radius: 23px
+  position: relative
+  *
+    position: relative
+  .fig-1
+    width: 45%
+    position: absolute
+    right: -4px
+    bottom: -4px
+    z-index: 0
+    &.larga
+      width: 96%
+    @media screen and (max-width: $bp-max-md)
+      width: 96%
+  .fig-2
+    width: 50px
+    position: absolute
+    top: -1px
+    right: -1px
+    z-index: 0
+
+  .tit-deco
+    display: inline-flex
+    width: 59px
+    height: 59px
+    align-items: center
+    justify-content: center
+    border: 1px solid #5F6E62
+    border-radius: 50%
+    span
+      color: #5F6E62
+      font-size: 28px
+  &.dise-2
+    background-color: #FCF9E8
+
+
+//titulos
+.titulo-decorativo
+  position: relative
+  display: inline-flex
+  align-items: center
+  &::before
+    content: ""
+    position: absolute
+    background-color: #DCC366
+    top: 8px
+    bottom: 7px
+    left: 10px
+    right: 0
+    z-index: 0
+    border-radius: 30px
+  .cont-text 
+    position: relative
+    h3
+      margin: 0
+      padding: 0.5rem 0 
+      margin-left: 0.5rem
+      margin-right: 1.5rem
+      @media screen and (max-width: $bp-max-xs)
+        margin-right: 0.5rem
+        padding: 1rem 0
+
+  .cont-figura
+    position: relative
+    display: inline-flex
+    border-radius: 50%
+    width: 51px
+    height: 51px
+    min-width: 51px
+    min-height: 51px
+    justify-content: center
+    align-items: center
+    align-content: center
+    background-color: #F1E7C2
+    img
+      max-width: 23px
+      padding-bottom: 0.3rem
+
+//slyders personalizados
+.slider-personalizado-1
+  .slyder-a__btn--sigt,.slyder-a__btn--atrs
+    transform: rotate(0)
+    background-color: $color-acento-botones
+    background-image: url(../assets/curso/temas/11.svg)
+    background-size: 10px 16px
+  .slyder-a__btn--atrs
+    transform: rotate(180deg) !important
+  .slyder-a__bullets__item
+    opacity: 0.35
+    background-color: $color-acento-contenido
+    border: none !important
+    &--active
+      opacity: 1 !important
