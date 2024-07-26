@@ -47,8 +47,19 @@ a.barra-avance__boton--regresar:hover
     background-image: url(../assets/curso/portada/fondo-banner-principal-movil.png) !important
 
 //bordes
+.borde-9
+  border-radius: 9px
+.borde-14
+  border-radius: 14px
+.borde-17
+  border-radius: 17px
 .borde-20
   border-radius: 20px
+.borde-s-1
+  border-bottom-left-radius: 9px
+  border-bottom-right-radius: 9px
+  border-top-left-radius: 30px
+  border-top-right-radius: 9px
 
 //colores
 .fondo-color-sistema-i
@@ -57,6 +68,12 @@ a.barra-avance__boton--regresar:hover
   background-color: $color-sistema-j
 .fondo-color-sistema-k
   background-color: $color-sistema-k
+.fondo-color-sistema-l
+  background-color: $color-sistema-l
+.fondo-color-sistema-m
+  background-color: $color-sistema-m
+.fondo-color-sistema-n
+  background-color: $color-sistema-n
 .fondo-color-primario
   background-color: $color-primario
 .fondo-color-secundario
@@ -103,6 +120,9 @@ a.barra-avance__boton--regresar:hover
       background-size: 100%
       @media screen and (max-width: $bp-max-md)
         background-size: cover
+  &.rotar
+    &:before
+      transform: rotateY(180deg)
   &.f1
     &:before
       background-image: url(../assets/curso/temas/18.png)
@@ -110,6 +130,9 @@ a.barra-avance__boton--regresar:hover
     &:before
       background: rgb(253,219,180)
       background: linear-gradient(180deg, rgba(253,219,180,1) 0%, rgba(199,234,208,1) 100%)
+  &.f3
+    &:before
+      background-image: url(../assets/curso/temas/52.png)
   &__contenido
     position: relative
 
@@ -118,11 +141,11 @@ a.barra-avance__boton--regresar:hover
   border-radius: 25px
 
 //tarjetas
-.tarjeta-per-1
+.tarjeta-per-1,.tarjeta-per-2
   overflow: hidden
+  position: relative
   background-color: $color-sistema-k
   border-radius: 23px
-  position: relative
   *
     position: relative
   .fig-1
@@ -155,6 +178,13 @@ a.barra-avance__boton--regresar:hover
       font-size: 28px
   &.dise-2
     background-color: #FCF9E8
+  &.dise-3
+    background-color: $color-sistema-j
+    border-radius: 17px
+    .fig-1
+      width: 35%
+      @media screen and (max-width: $bp-max-md)
+        width: 65%
 
 
 //titulos
@@ -214,3 +244,40 @@ a.barra-avance__boton--regresar:hover
     border: none !important
     &--active
       opacity: 1 !important
+    
+.slider-personalizado-2
+  .slyder-f__btn
+    position: relative
+    *
+      position: relative
+    &:before
+      content: ""
+      background-color: $color-acento-botones
+      position: absolute
+      height: 50px
+      width: 50px
+      z-index: 0
+      border-radius: 50%
+      @media screen and (max-width: 576px)
+        width: 30px
+        height: 30px
+    i
+      font-size: 1.2rem
+      color: $white
+
+//listas
+.lista-perso-1
+  li
+    .dec-num
+      display: inline-flex
+      width: 24px
+      height: 24px
+      background-color: $color-acento-contenido
+      justify-content: center
+      align-items: center
+      margin-right: 0.7rem
+      margin-bottom: 0.7rem
+      span
+        line-height: 0
+        font-weight: bold
+    display: flex
