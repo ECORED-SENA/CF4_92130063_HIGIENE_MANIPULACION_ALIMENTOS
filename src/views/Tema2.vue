@@ -219,6 +219,69 @@
     
     p.pt-3.mb-3 Recomendaciones para evitar accidentes en el área de trabajo:
 
+    .row.align-items-center 
+      .col-lg-3
+        figure.mb-4.mb-lg-0
+          img.mx-auto(src="@/assets/curso/temas/53.svg",style="max-width: 286px;")
+      .col-lg-9
+        AcordionA.acordion-personalizado-1(tipo="a" clase-tarjeta="tarjeta")
+          .div(titulo="Caída")
+            .ps-md-5.ms-md-3
+              ul.lista-ul.lista-perso-1
+                li
+                  i.fas.fa-check-circle.c-color-primario
+                  span Si esparce agua séquela inmediatamente. 
+                li
+                  i.fas.fa-check-circle.c-color-primario
+                  span Si va a limpiar el piso o trapear, ponga señales.
+                li
+                  i.fas.fa-check-circle.c-color-primario
+                  span Si derrama líquidos o deja caer residuos de comida, limpie inmediatamente.
+                li.mb-0
+                  i.fas.fa-check-circle.c-color-primario
+                  span No deje obstáculos en el piso.
+          .div(titulo="Torceduras o desgarres")
+            .ps-md-5.ms-md-3
+              ul.lista-ul.lista-perso-1
+                li
+                  i.fas.fa-check-circle.c-color-primario
+                  span Si va a levantar algo muy pesado, use el cinturón de seguridad.
+                li
+                  i.fas.fa-check-circle.c-color-primario
+                  span No se estire bruscamente y mantenga las materias primas en una altura en la cual las pueda coger fácilmente.
+                li.mb-0
+                  i.fas.fa-check-circle.c-color-primario
+                  span Evite movimientos bruscos.
+          .div(titulo="Quemaduras")
+            .ps-md-5.ms-md-3
+              ul.lista-ul.lista-perso-1
+                li
+                  i.fas.fa-check-circle.c-color-primario
+                  span Evite levantar ollas y demás utensilios calientes sin ninguna protección.
+                li.mb-0
+                  i.fas.fa-check-circle.c-color-primario
+                  span Al freír un alimento no adicione otros alimentos que contengan agua, escúrralos. 
+          .div(titulo="Lesiones con equipos")
+            .ps-md-5.ms-md-3
+              ul.lista-ul.lista-perso-1
+                li
+                  i.fas.fa-check-circle.c-color-primario
+                  span Mantenga las manos alejadas de cuchillas o aspas en movimiento y nunca desatore los equipos con los dedos; por ejemplo, cuando los molinos industriales de moler carne se frenan, se deben apagar y hacer la respectiva inspección.
+                li.mb-0
+                  i.fas.fa-check-circle.c-color-primario
+                  span Verificar que el equipo después de ser usado quede bien apagado.
+          .div(titulo="Enfermedades respiratorias o intestinales")
+            .ps-md-5.ms-md-3
+              ul.lista-ul.lista-perso-1
+                li
+                  i.fas.fa-check-circle.c-color-primario
+                  span Si manipula alimentos calientes o entre a corrientes frías como refrigeradores. 
+                li
+                  i.fas.fa-check-circle.c-color-primario
+                  span Si tiene problemas de virosis no manipule alimentos.
+                li.mb-0
+                  i.fas.fa-check-circle.c-color-primario
+                  span Si tiene diarrea no manipule los alimentos.
     
     
         
