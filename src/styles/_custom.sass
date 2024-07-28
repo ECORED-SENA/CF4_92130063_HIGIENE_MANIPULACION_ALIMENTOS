@@ -47,8 +47,14 @@ a.barra-avance__boton--regresar:hover
     background-image: url(../assets/curso/portada/fondo-banner-principal-movil.png) !important
 
 //bordes
+.no-borde
+  border: none !important
 .borde-9
   border-radius: 9px
+.borde-10
+  border-radius: 10px
+.borde-13
+  border-radius: 13px
 .borde-14
   border-radius: 14px
 .borde-17
@@ -76,6 +82,8 @@ a.barra-avance__boton--regresar:hover
   background-color: $color-sistema-m
 .fondo-color-sistema-n
   background-color: $color-sistema-n
+.fondo-color-sistema-o
+  background-color: $color-sistema-o
 .fondo-color-primario
   background-color: $color-primario
 .fondo-color-secundario
@@ -130,6 +138,9 @@ a.barra-avance__boton--regresar:hover
   &.rotar
     &:before
       transform: rotateY(180deg)
+  &.top-1
+    &:before
+      top: 25px
   &.f1
     &:before
       background-image: url(../assets/curso/temas/18.png)
@@ -332,3 +343,11 @@ a.barra-avance__boton--regresar:hover
   tr:first-child
     th
       border-top: none
+
+//lineas de tiempo
+.linea-tiempo-1
+  .linea-tiempo-d__item__number,.tarjeta--gris
+    background-color: #E6F2E9
+  .linea-tiempo-d__item--selected
+    &.linea-tiempo-d__item__number,.tarjeta--gris
+      background-color: #F1E7C2

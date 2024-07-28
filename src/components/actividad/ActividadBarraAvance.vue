@@ -68,6 +68,11 @@ export default {
   overflow: hidden
   .boton
     border-radius: 0
+    border-radius: 0
+    background-color: #FFCD0D
+    span,i
+      color: $color-sistema-texto
+      font-weight: bold
 
   .boton--disabled
     opacity: 0.5

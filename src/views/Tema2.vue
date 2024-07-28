@@ -2,14 +2,14 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Prácticas higiénicas y medidas de protección
     
     .fondo-personalizado-1.pos-bottom.pos-full.rotar.f1
       .fondo-personalizado-1__contenido.pb-4
-        .row.align-items-center
+        .row.align-items-center(data-aos="flip-up")
           .col-lg-4
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/24.png",style="max-width: 406px;")
@@ -57,9 +57,9 @@
                 h4.fondo-color-sistema-j.d-inline.text-center.px-1(style="font-size: 17px;line-height: 1.5;") Normas para visitantes
                 p.mb-0.mt-4.text-center Las personas que visiten el lugar deben seguir las mismas normas de higiene.
         
-        p.my-4 Otros hábitos y estrategias son:
+        p.my-4(data-aos="fade") Otros hábitos y estrategias son:
 
-        .row.align-items-center
+        .row.align-items-center(data-aos="flip-up")
           .col-lg-4
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/33.png",style="max-width: 400px;")
@@ -106,24 +106,24 @@
                 h4.fondo-color-sistema-l.text-white.d-inline.text-center.px-1(style="font-size: 17px;line-height: 1.5;") Uso de tapabocas según riesgo
                 p.mb-0.mt-4.text-center Dependiendo del riesgo de contaminación que esté asociado con la preparación, deben obligar el uso de tapabocas.
 
-    .titulo-decorativo.mt-3.mb-4
+    .titulo-decorativo.mt-3.mb-4(data-aos="fade-left")
       .cont-figura
         img(src="@/assets/curso/temas/img-tit-dec.svg")
       .cont-text 
         h3 Lavado de manos
     
-    .row.mb-4 
-      .col-auto.d-none.d-lg-block 
+    .row.mb-4(data-aos="fade-up")
+      .col-auto.d-none.d-lg-block
         figure
           img.mx-auto(src="@/assets/curso/temas/41.svg",style="max-width: 83px;")
       .col
         p.mb-0 El lavado de manos cuando se preparan alimentos debe ser constante, debido a que con esta técnica se elimina un 85% de los riesgos de contaminación. Por esta razón, es importante una conducta higiénica para preservar la inocuidad en el sitio de trabajo.
     
-    p.mb-4 Cuando se lave las manos tenga en cuenta:
+    p.mb-4(data-aos="fade") Cuando se lave las manos tenga en cuenta:
 
     .fondo-personalizado-1.pos-bottom.pos-full.f3
       .fondo-personalizado-1__contenido
-        .row.justify-content-center.mb-5
+        .row.justify-content-center.mb-5(data-aos="zoom-in-out")
           .col-lg-10
             .borde-17.p-4.fondo-color-sistema-j.tarjeta-per-2.dise-3
               img.fig-1(src="@/assets/curso/temas/43.svg")
@@ -167,59 +167,59 @@
                         span 8
                       span Remangarse el uniforme hasta la altura del codo.
 
-        p.pb-4.mb-0 No permitir nunca que los operarios:
+        p.pb-4.mb-0(data-aos="fade") No permitir nunca que los operarios:
 
     .row 
-      .col-lg-3.col-md-6.mb-4
+      .col-lg-3.col-md-6.mb-4(data-aos="fade-up")
         .fondo-color-secundario.overflow-hidden.borde-9.h-100
           figure
             img.mx-auto(src="@/assets/curso/temas/44.png")
           p.mb-0.p-4 Al coger alimentos utilicen las manos, esta labor se hace con pinzas.
-      .col-lg-3.col-md-6.mb-4
+      .col-lg-3.col-md-6.mb-4(data-aos="fade-down")
         .fondo-color-secundario.overflow-hidden.borde-9.h-100
           figure
             img.mx-auto(src="@/assets/curso/temas/45.png")
           p.mb-0.p-4 Acumulen los platos o tazas al entregar los alimentos.
-      .col-lg-3.col-md-6.mb-4
+      .col-lg-3.col-md-6.mb-4(data-aos="fade-up")
         .fondo-color-secundario.overflow-hidden.borde-9.h-100
           figure
             img.mx-auto(src="@/assets/curso/temas/46.png")
           p.mb-0.p-4 Acumulen los platos o tazas al entregar los alimentos.
-      .col-lg-3.col-md-6.mb-4
+      .col-lg-3.col-md-6.mb-4(data-aos="fade-down")
         figure.h-100
           img.mx-auto.h-100(src="@/assets/curso/temas/47.png")
     
-    .titulo-decorativo.mt-4.mb-4
+    .titulo-decorativo.mt-4.mb-4(data-aos="fade-left")
       .cont-figura
         img(src="@/assets/curso/temas/img-tit-dec.svg")
       .cont-text 
         h3 Accidentes laborales
     
-    p.mb-4 Los lugares donde se preparan los alimentos pueden ser un espacio propicio para que ocurran accidentes laborales, por esta razón es importante estar muy atentos, para así evitar accidentes. Los accidentes más usuales son:
+    p.mb-4(data-aos="fade") Los lugares donde se preparan los alimentos pueden ser un espacio propicio para que ocurran accidentes laborales, por esta razón es importante estar muy atentos, para así evitar accidentes. Los accidentes más usuales son:
 
     .row 
-      .col-lg-3.col-md-6.mb-4
+      .col-lg-3.col-md-6.mb-4(data-aos="fade-up")
         .fondo-color-sistema-n.overflow-hidden.borde-9.h-100
           figure
             img.mx-auto(src="@/assets/curso/temas/49.png")
           p.mb-0.p-4 Caídas, torceduras y quemaduras.
-      .col-lg-3.col-md-6.mb-4
+      .col-lg-3.col-md-6.mb-4(data-aos="fade-down")
         .fondo-color-sistema-n.overflow-hidden.borde-9.h-100
           figure
             img.mx-auto(src="@/assets/curso/temas/50.png")
           p.mb-0.p-4 Lesiones con los equipos.
-      .col-lg-3.col-md-6.mb-4
+      .col-lg-3.col-md-6.mb-4(data-aos="fade-up")
         .fondo-color-sistema-n.overflow-hidden.borde-9.h-100
           figure
             img.mx-auto(src="@/assets/curso/temas/51.png")
           p.mb-0.p-4 Enfermedades del origen respiratorio.
-      .col-lg-3.col-md-6.mb-4.order-first
+      .col-lg-3.col-md-6.mb-4.order-first(data-aos="fade-down")
         figure.h-100
           img.mx-auto.h-100(src="@/assets/curso/temas/48.png")
     
-    p.pt-3.mb-3 Recomendaciones para evitar accidentes en el área de trabajo:
+    p.pt-3.mb-3(data-aos="fade-left") Recomendaciones para evitar accidentes en el área de trabajo:
 
-    .row.align-items-center 
+    .row.align-items-center(data-aos="flip-up")
       .col-lg-3
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/53.svg",style="max-width: 286px;")

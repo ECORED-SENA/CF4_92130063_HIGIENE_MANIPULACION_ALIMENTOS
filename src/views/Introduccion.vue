@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.pb-3.pb-md-3
   
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span
           i.fas.fa-info
@@ -27,7 +27,7 @@
           img.mx-auto(src="@/assets/curso/temas/2.png",style="max-width: 286px;")
 
     .row 
-      .col-lg-8.mb-4
+      .col-lg-8.mb-4(data-aos="fade-down")
         .tarjeta-per-1.p-4.mb-4
           img.fig-1(src="@/assets/curso/temas/3.svg")
           img.fig-2(src="@/assets/curso/temas/4.svg")
@@ -52,7 +52,7 @@
                 .tit-deco.mx-auto.mx-lg-0
                   span 2
               p.mb-0.me-lg-5 Se abordan las responsabilidades de los manipuladores, incluyendo exámenes médicos periódicos, formación continua en buenas prácticas de manufactura, y medidas específicas de higiene personal y laboral.
-      .col-lg-4.mb-4
+      .col-lg-4.mb-4(data-aos="fade-down")
         .tarjeta-per-1.p-4.h-100
           img.fig-1.larga(src="@/assets/curso/temas/3.svg")
           img.fig-2(src="@/assets/curso/temas/4.svg")

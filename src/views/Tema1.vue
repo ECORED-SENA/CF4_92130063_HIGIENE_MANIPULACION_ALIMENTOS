@@ -2,12 +2,12 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Manipulación de alimentos
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos="zoom-in-out")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/8.png')})`}"
       )
@@ -15,7 +15,7 @@
         p.mb-0 La manipulación de alimentos son los diferentes métodos que se llevan a cabo al momento de conservar las propiedades físicas y químicas de un alimento para prolongar su vida útil. Esto contribuye a que el alimento sea seguro para las personas que lo van a consumir.
 
     
-    .titulo-decorativo.mt-5
+    .titulo-decorativo.mt-5(data-aos="fade-left")
       .cont-figura
         img(src="@/assets/curso/temas/img-tit-dec.svg")
       .cont-text 
@@ -23,25 +23,25 @@
     .fondo-personalizado-1.pos-full.f1
       .fondo-personalizado-1__contenido.pt-5
         .row 
-          .col-lg-5.mb-4
+          .col-lg-5.mb-4(data-aos="fade-left")
             .fondo-color-secundario.p-4.p-lg-5.h-100.align-content-center
               p.mb-0 Son todas las personas que de una u otra manera están involucradas de forma directa en la transformación, fabricación, expendio, almacenamiento y distribución de un alimento. De estas personas depende la buena calidad de los productos elaborados y su inocuidad.
-          .col-lg-3.mb-4
+          .col-lg-3.mb-4(data-aos="fade-up")
             .fondo-color-primario.h-100.d-flex.align-items-center
               figure
                 img.mx-auto(src="@/assets/curso/temas/9.svg",style="max-width: 295px;")
-          .col-lg-4.align-self-end.mb-4
+          .col-lg-4.align-self-end.mb-4(data-aos="fade-right")
             figure.mb-4
               img.me-auto(src="@/assets/curso/temas/10.svg",style="max-width: 63px;")
             p.mb-0 Los manipuladores de alimentos tienen la responsabilidad ética de proteger la salud de los consumidores al elaborar los alimentos de acuerdo con lo establecido en la normativa vigente, utilizando técnicas higiénicas para realizar esta labor.
         
-        .titulo-decorativo.my-5
+        .titulo-decorativo.my-5(data-aos="fade-left")
           .cont-figura
             img(src="@/assets/curso/temas/img-tit-dec.svg")
           .cont-text 
             h3 Personal Manipulador de los Alimentos
         
-        p.mb-3 El personal manipulador, con relación a su estado de salud, debe cumplir con lo siguiente:
+        p.mb-3(data-aos="fade") El personal manipulador, con relación a su estado de salud, debe cumplir con lo siguiente:
 
         .fondo-personalizado-1.f2(data-aos="flip-up")
           .fondo-personalizado-1__contenido.py-5
@@ -90,20 +90,20 @@
                     figure
                       img.mx-auto(src="@/assets/curso/temas/17.png",style="max-width: 424px;")
     
-    .titulo-decorativo.my-4
+    .titulo-decorativo.my-4(data-aos="fade-left")
       .cont-figura
         img(src="@/assets/curso/temas/img-tit-dec.svg")
       .cont-text 
         h3 Educación y Capacitación
     
-    .row.mb-4 
+    .row.mb-4(data-aos="fade-up")
       .col-auto.d-none.d-lg-block 
         figure
           img.mx-auto(src="@/assets/curso/temas/19.svg",style="max-width: 83px;")
       .col
         p.mb-0 Todas las personas que manipulen alimentos deben tener formación en #[b buenas prácticas higiénicas de manipulación y aspectos sanitarios]. La empresa debe capacitar a todos en precauciones y medidas para evitar daños, riesgos de deterioro y en su educación. Las empresas deben capacitar al operario manipulador en buenas prácticas higiénicas y de manufactura al momento de ser contratado; además, debe actualizarlo mediante charlas y capacitación.
     
-    .row 
+    .row(data-aos="fade-down")
       .col-lg-8.mb-4
         .tarjeta-per-1.dise-2.p-4.mb-4
           img.fig-1(src="@/assets/curso/temas/23.svg")

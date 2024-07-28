@@ -18,7 +18,7 @@ export default {
       tema: 'Seguridad e higiene en la manipulación de alimentos',
       titulo: 'Cuestionario',
       introduccion:
-        'Lea cada enunciado y luego seleccione la respuesta correcta según corresponda.',
+        'Evaluar el conocimiento sobre las prácticas esenciales de manipulación de alimentos, para garantizar la seguridad alimentaria y prevenir la contaminación.',
       barajarPreguntas: false,
       preguntas: [
         {
@@ -90,7 +90,7 @@ export default {
           id: 3,
           texto:
             '¿Qué documento debe tener el personal manipulador de alimentos para certificar su aptitud?',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/componentes/pregunta_3.svg'),
           opciones: [
             { id: 'a', texto: 'Certificado de nacimiento.', esCorrecta: false },
             { id: 'b', texto: 'Licencia de conducir.', esCorrecta: false },
@@ -108,7 +108,7 @@ export default {
         {
           id: 4,
           texto: '¿Cuál es una fuente común de transmisión de microorganismos?',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/componentes/pregunta_4.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Manos.', esCorrecta: true },
@@ -124,7 +124,7 @@ export default {
           id: 5,
           texto:
             '¿Qué medida es crucial durante la recepción de productos refrigerados?',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/componentes/pregunta_1.svg'),
           opciones: [
             {
               id: 'a',
@@ -150,7 +150,7 @@ export default {
         {
           id: 6,
           texto: '¿Qué es el sistema HACCP?',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/componentes/pregunta_2.png'),
           opciones: [
             {
               id: 'a',
@@ -182,7 +182,7 @@ export default {
           id: 7,
           texto:
             '¿Qué práctica es esencial para evitar la contaminación cruzada en el almacenamiento?',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/componentes/pregunta_3.svg'),
           opciones: [
             {
               id: 'a',
@@ -213,7 +213,7 @@ export default {
           id: 8,
           texto:
             '¿Cuál es una de las responsabilidades del manipulador de alimentos?',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/componentes/pregunta_4.png'),
           opciones: [
             {
               id: 'a',
@@ -244,7 +244,7 @@ export default {
           id: 9,
           texto:
             '¿Qué debe hacer un manipulador de alimentos si tiene una infección en la piel?',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/componentes/pregunta_1.svg'),
           opciones: [
             {
               id: 'a',
@@ -274,7 +274,7 @@ export default {
         {
           id: 10,
           texto: '¿Qué se debe verificar durante el transporte de alimentos?',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          imagen: require('@/assets/componentes/pregunta_2.png'),
           opciones: [
             {
               id: 'a',

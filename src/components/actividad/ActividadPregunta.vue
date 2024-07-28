@@ -11,7 +11,7 @@
         <div
           v-for="(respuesta, idx) in opcionesComputed"
           :key="respuesta.id"
-          class="tarjeta tarjeta--azul tarjeta-respuesta p-4"
+          class="tarjeta bg-white tarjeta-respuesta p-4"
           :class="{
             'mb-3': idx !== opcionesComputed.length - 1,
             'tarjeta-respuesta--correcta': respuesta.correcta,
