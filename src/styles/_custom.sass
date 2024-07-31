@@ -326,6 +326,10 @@ a.barra-avance__boton--regresar:hover
     color: $white
 
 .tabla-per-1
+  table
+    min-width: 450px !important
+    @media screen and (max-width: $bp-max-md)
+      min-width: 1000px !important
   thead
     border-top: none
     background-color: $color-acento-contenido

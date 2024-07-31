@@ -101,7 +101,7 @@
         figure
           img.mx-auto(src="@/assets/curso/temas/19.svg",style="max-width: 83px;")
       .col
-        p.mb-0 Todas las personas que manipulen alimentos deben tener formación en #[b buenas prácticas higiénicas de manipulación y aspectos sanitarios]. La empresa debe capacitar a todos en precauciones y medidas para evitar daños, riesgos de deterioro y en su educación. Las empresas deben capacitar al operario manipulador en buenas prácticas higiénicas y de manufactura al momento de ser contratado; además, debe actualizarlo mediante charlas y capacitación.
+        p.mb-0 Todas las personas que manipulen alimentos deben tener formación en #[b buenas prácticas higiénicas de manipulación y aspectos sanitarios]. La empresa debe capacitar a todos en precauciones y medidas para evitar daños, riesgos de deterioro y en su educación. Las empresas deben capacitar al operario manipulador en buenas prácticas higiénicas y de manufactura al momento de ser contratado; además, deben actualizarlo mediante charlas y capacitación.
     
     .row(data-aos="fade-down")
       .col-lg-8.mb-4

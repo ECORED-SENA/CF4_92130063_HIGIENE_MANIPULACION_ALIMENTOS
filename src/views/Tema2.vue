@@ -119,7 +119,7 @@
       .col
         p.mb-0 El lavado de manos cuando se preparan alimentos debe ser constante, debido a que con esta técnica se elimina un 85% de los riesgos de contaminación. Por esta razón, es importante una conducta higiénica para preservar la inocuidad en el sitio de trabajo.
     
-    p.mb-4(data-aos="fade") Cuando se lave las manos tenga en cuenta:
+    p.mb-4(data-aos="fade") Cuando se lave las manos, tenga en cuenta:
 
     .fondo-personalizado-1.pos-bottom.pos-full.f3
       .fondo-personalizado-1__contenido
@@ -141,7 +141,7 @@
                     li
                       .dec-num.p-2
                         span 2
-                      span Mojarse las manos hasta el antebrazo y codos.
+                      span Mojarse las manos hasta el antebrazo y los codos.
                     li
                       .dec-num.p-2
                         span 3
@@ -275,13 +275,13 @@
               ul.lista-ul.lista-perso-1
                 li
                   i.fas.fa-check-circle.c-color-primario
-                  span Si manipula alimentos calientes o entre a corrientes frías como refrigeradores. 
+                  span Si manipula alimentos calientes o entra a corrientes frías como refrigeradores. 
                 li
                   i.fas.fa-check-circle.c-color-primario
                   span Si tiene problemas de virosis no manipule alimentos.
                 li.mb-0
                   i.fas.fa-check-circle.c-color-primario
-                  span Si tiene diarrea no manipule los alimentos.
+                  span Si tiene diarrea, no manipule los alimentos.
     
     
         

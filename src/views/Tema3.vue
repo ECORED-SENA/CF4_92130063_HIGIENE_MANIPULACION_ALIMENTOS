@@ -46,7 +46,7 @@
       p.mb-0 #[b Tabla 1.] Ejemplo formato de registro
     
     .tabla-a.tabla-per-1.fondo-color-sistema-h.mb-5(data-aos="zoom-in-out")
-      table(style="min-width: 350px;")
+      table
         thead
           tr
             th Fecha de ingreso
