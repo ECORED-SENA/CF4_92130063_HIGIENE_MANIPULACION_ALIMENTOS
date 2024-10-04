@@ -116,7 +116,7 @@ export default {
   },
   complementario: [
     {
-      tema: 'Manipulación de alimentos',
+      tema: 'Manipulación de alimentos.',
       referencia:
         'Organización Panamericana de la Salud. (2014). <em>Manual para manipuladores de alimentos</em>. Organización Panamericana de la Salud.',
       tipo: 'Documento',
@@ -124,14 +124,14 @@ export default {
         'https://www3.paho.org/hq/dmdocuments/manual-manipuladores-alimentos-2014.pdf',
     },
     {
-      tema: 'Prácticas higiénicas y medidas de protección',
+      tema: 'Prácticas higiénicas y medidas de protección.',
       referencia:
         'World Health Organization (WHO) (2015). OMS: Las cinco claves para la inocuidad de los alimentos. [Archivo de video] Youtube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=ULZSfFVpLtQ&ab_channel=INAVIRTUAL',
     },
     {
-      tema: 'Recepción, almacenamiento y transporte',
+      tema: 'Recepción, almacenamiento y transporte.',
       referencia:
         'Javier Vega (2021). Conservación, almacenamiento y transporte de alimentos. Manual del Manipulador de Alimentos.',
       tipo: 'Video',
@@ -139,14 +139,14 @@ export default {
         'https://www.youtube.com/watch?v=tgf9tPOdl8A&ab_channel=NaylaRedondoNoches',
     },
     {
-      tema: 'Almacenamiento',
+      tema: 'Almacenamiento.',
       referencia:
         'DesOrdenados-Podcast (2023). Tips para almacenar los alimentos correctamente. DesOrdenPodcasts (5) [Audio podcast]. YouTube Music.',
       tipo: 'Podcast',
       link: 'https://music.youtube.com/watch?v=BJkRcGBwxzo',
     },
     {
-      tema: 'Almacenamiento',
+      tema: 'Almacenamiento.',
       referencia:
         'MinSalud. (2017). Guía de inocuidad de  alimentos y bebidas para la actividad de transporte.',
       tipo: 'Documento',
@@ -154,7 +154,7 @@ export default {
         'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PP/SNA/Guia-inocuidad-alimentos-transporte.pdf',
     },
     {
-      tema: 'Sistema HACCP',
+      tema: 'Sistema HACCP.',
       referencia:
         'Alimentos Tech (2021). Sistema HACCP y PRINCIPIOS en 9 minutos',
       tipo: 'Video',
@@ -216,7 +216,7 @@ export default {
     },
     {
       referencia:
-        'Apolinar, A. M. N., & Ibáñez, A. M. A. (2022). FACTORES CRÍTICOS ASOCIADOS A LA IMPLEMENTACIÓN DE UN SISTEMA HACCP EN LA INDUSTRIA DE ALIMENTOS Y BEBIDAS EN COLOMBIA. @ limentech, Ciencia y Tecnología Alimentaria, 20(1).',
+        'Apolinar, A. M. N., & Ibáñez, A. M. A. (2022). Factores críticos asociados a la implementación de un sistema HACCP en la industria de alimentos y bebidas en Colombia. @ limentech, Ciencia y Tecnología Alimentaria, 20(1).',
       link: 'https://ojs.unipamplona.edu.co/index.php/alimen/article/view/1470',
     },
     {

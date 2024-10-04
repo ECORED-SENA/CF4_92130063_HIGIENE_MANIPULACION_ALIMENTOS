@@ -33,7 +33,7 @@
           .fondo-color-sistema-k.p-4.h-100
             figure
               img.mx-auto(src="@/assets/curso/temas/55.png")
-            p.mb-0.pt-4.pt-lg-5.pb-lg-4.px-lg-4 Se debe comprobar que los productos llegan en condiciones óptimas, sin roturas, abombados o con animales, sino se cumple con el requisito, hay que devolver la materia prima.
+            p.mb-0.pt-4.pt-lg-5.pb-lg-4.px-lg-4 Al descargar la mercancía, no se apoyará directamente en el suelo o superficies que puedan contaminarlos, se debe tener designadas estas superficies al adecuado almacenamiento.
     
     .row.my-4
       .col-md-auto(data-aos="fade-up")

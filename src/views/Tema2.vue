@@ -230,7 +230,7 @@
               ul.lista-ul.lista-perso-1
                 li
                   i.fas.fa-check-circle.c-color-primario
-                  span Si esparce agua séquela inmediatamente. 
+                  span Si esparce agua, séquela inmediatamente. 
                 li
                   i.fas.fa-check-circle.c-color-primario
                   span Si va a limpiar el piso o trapear, ponga señales.
@@ -260,7 +260,7 @@
                   span Evite levantar ollas y demás utensilios calientes sin ninguna protección.
                 li.mb-0
                   i.fas.fa-check-circle.c-color-primario
-                  span Al freír un alimento no adicione otros alimentos que contengan agua, escúrralos. 
+                  span Al freír un alimento, no adicione otros alimentos que contengan agua, escúrralos. 
           .div(titulo="Lesiones con equipos")
             .ps-md-5.ms-md-3
               ul.lista-ul.lista-perso-1
@@ -273,9 +273,6 @@
           .div(titulo="Enfermedades respiratorias o intestinales")
             .ps-md-5.ms-md-3
               ul.lista-ul.lista-perso-1
-                li
-                  i.fas.fa-check-circle.c-color-primario
-                  span Si manipula alimentos calientes o entra a corrientes frías como refrigeradores. 
                 li
                   i.fas.fa-check-circle.c-color-primario
                   span Si tiene problemas de virosis no manipule alimentos.
