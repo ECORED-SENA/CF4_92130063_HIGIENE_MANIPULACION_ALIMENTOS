@@ -126,7 +126,7 @@ export default {
     {
       tema: 'Prácticas higiénicas y medidas de protección.',
       referencia:
-        'World Health Organization (WHO) (2015). OMS: Las cinco claves para la inocuidad de los alimentos. [Archivo de video] Youtube.',
+        'World Health Organization (WHO) (2015). OMS: Las cinco claves para la inocuidad de los alimentos. [Archivo de video] YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=ULZSfFVpLtQ&ab_channel=INAVIRTUAL',
     },
@@ -156,7 +156,7 @@ export default {
     {
       tema: 'Sistema HACCP.',
       referencia:
-        'Alimentos Tech (2021). Sistema HACCP y PRINCIPIOS en 9 minutos',
+        'Alimentos Tech (2021). Sistema HACCP y PRINCIPIOS en 9 minutos.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=P_5CYCGyOCg&ab_channel=AlimentosTech',
