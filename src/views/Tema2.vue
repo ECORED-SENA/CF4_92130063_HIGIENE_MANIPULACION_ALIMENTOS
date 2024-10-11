@@ -275,7 +275,7 @@
               ul.lista-ul.lista-perso-1
                 li
                   i.fas.fa-check-circle.c-color-primario
-                  span Si tiene problemas de virosis no manipule alimentos.
+                  span Si tiene problemas de virosis, no manipule alimentos.
                 li.mb-0
                   i.fas.fa-check-circle.c-color-primario
                   span Si tiene diarrea, no manipule los alimentos.
